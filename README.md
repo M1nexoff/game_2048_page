@@ -8,15 +8,6 @@ Welcome to the **2048 Game** repository! This is an Android implementation of th
 
 The **2048 Game** app offers a fun and addictive puzzle experience where players merge matching numbers to form larger numbers and try to achieve the coveted **2048** tile.
 
-**Features**:
-- **Slide Cubes**: Slide the numbered tiles in any direction (up, down, left, right) to merge matching tiles.
-- **Achieve 2048**: Combine tiles to reach the 2048 tile.
-- **Live Score**: Track your current score in real time.
-- **Undo Moves**: Option to undo the previous move.
-- **Swipe Gestures**: Use touch gestures to slide the tiles using a **GestureDetector**.
-- **Persistent High Score**: Save your highest score locally using **SharedPreferences**.
-- **Clean Architecture (MVVM)**: The game follows the **MVVM** (Model-View-ViewModel) design pattern and **Clean Architecture** principles to ensure the codebase is maintainable and scalable.
-
 ---
 
 ### 🚀 **Features**
@@ -27,8 +18,20 @@ The **2048 Game** app offers a fun and addictive puzzle experience where players
 - **Gesture Detection**: Tiles are moved using **GestureDetector** for smooth user interactions.
 - **High Score Tracking**: Saves the highest score achieved using **SharedPreferences**.
 - **Clean Architecture**: The game’s logic is structured into a maintainable architecture with **MVVM** and **LiveData** for state management.
-- **Animations**: Smooth tile sliding animations to enhance the gameplay experience.
-- **Undo Moves**: Revert to the previous game state with an undo feature (optional).
+
+---
+
+### ⚙️ **Technologies Used**
+
+This app leverages several Android libraries and tools to create an efficient, maintainable game:
+
+- **Android Native**: Built using **Kotlin** and **Android SDK**.
+- **MVVM**: The **Model-View-ViewModel** pattern is used for a clear separation between UI and business logic.
+- **Clean Architecture**: Ensures maintainability, testability, and scalability.
+- **GestureDetector**: Detects swipe gestures to slide the tiles.
+- **LiveData**: Observes changes in the game state and updates the UI in real-time.
+- **SharedPreferences**: Saves high scores and game settings persistently.
+- **Pager**: Used to display the game grid and provide smooth navigation for different game screens.
 
 
 <table>
